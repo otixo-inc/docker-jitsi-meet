@@ -15,6 +15,8 @@ RUN apt-dpkg-wrap apt-get update && \
     apt-cleanup && \
     rm -rf /tmp/pkg /var/cache/apt
 
+COPY jitsi-meet/css/all.css /usr/share/jitsi-meet/css/all.css
+
 EXPOSE 80 443
 
 VOLUME ["/config", "/usr/share/jitsi-meet/transcripts"]
