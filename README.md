@@ -25,3 +25,4 @@ If you plan to install the jitsi-meet stack on a Kubernetes cluster you can find
 * Support container replicas (where applicable).
 * TURN server.
 
+test
